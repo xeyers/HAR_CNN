@@ -11,3 +11,15 @@ Folders containing data used to train/test specific models, each described below
 (to be added)
 ## How to use
 Each Jupyter Notebook file contains neccessary comments to figure that out, if I did it by watching a YouTube video you can too (link will be here)
+## Required packages
+- tensorflow
+- keras
+- pandas
+- numpy
+- matplotlib
+- sklearn
+- scipy
+- mlxtend
+- seaborn
+
+Everything was done in Python 3.12
