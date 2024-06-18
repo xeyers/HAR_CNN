@@ -5,6 +5,9 @@ If you are not one of my teachers and are just looking, look at your own risk, t
 # Important note:
 Please keep in mind that the accuracy of those models is questionable at best. While the final one shows around 95 % accuracy the amount of data it was trained on was fairly limited. It was trained on data from WISDM dataset (just a small part of it as to not create imbalances, for more info look into any Jupyter Notebook file) and whatever I was able to record myself (and as a single person I wasn't able to record that much). If this project will ever be expanded to create something meaningful much more data will be needed.
 
+# Instruction
+Check "instructions.md" file.
+
 # Contents:
 ## Models
 Folder with models traing throughout the research, each described below
@@ -16,7 +19,7 @@ Model trained only on data from university of Fordham. Every axis was used. This
 
 ***
 
-### walking_stairs_my_data.keras (my_model_na_moim_mini.kera)
+### walking_stairs_my_data.keras (my_model_na_moim_mini.keras)
 Model trained on the small amount of data I was able to record myself.
 It only recognizes 3 activities:
 - Walking
