@@ -28,7 +28,7 @@ for i, line in enumerate(lines):
 columns = ["activity", "y", "z"] # columns = ["activity", "x", "y", "z"]
 data = pd.DataFrame(data = processedData, columns = columns)
 ```
-Here you have "dataset" variable. Make sure to put path to your dataset here (make sure it has right amount of axes). It doesn't have to be txt, can be csv as well, just make sure each field is separated with a semicolon (;) and each line ends with Enter.My dataset were in format "activity;y;z" but yours might be different. Make sure last variable is set to the last column of your line and temp variable to however you want to arrange your dataset. Make sure columns variable is set accordingly. If you don't want to spend 2 hours editing whole code make sure it follows one of those 2 formats:
+Here you have "dataset" variable. Make sure to put path to your dataset here (make sure it has the right amount of axes). It doesn't have to be txt, can be csv as well, just make sure each field is separated with a semicolon (;) and each line ends with Enter. My dataset was in format "activity;y;z" but yours might be different. Make sure last variable is set to the last column of your line and temp variable to however you want to arrange your dataset. Make sure columns variable is set accordingly. If you don't want to spend 2 hours editing whole code make sure it follows one of those 2 formats:
 ```
 activity;y_axis;z_axis
 ```
